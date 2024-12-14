@@ -27,7 +27,7 @@ Tailwind CSS is a highly customizable, low-level CSS framework that gives you al
 ## Project Structure
 
 ```
-Tailwind-CSS-Learning/
+Tailwind-CSS/
 │
 ├── index.html         # Example projects
 ├── styles.css         # Compiled Tailwind CSS
@@ -40,7 +40,7 @@ Tailwind-CSS-Learning/
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/tailwind-css-learning.git
-   cd tailwind-css-learning
+   cd tailwind-css
    ```
 
 2. Install Tailwind CSS using npm:
