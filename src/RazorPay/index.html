@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="../output.css" rel="stylesheet">
+    <script src="https://unpkg.com/feature-icons"></script>
 </head>
 <body>
         <!-- navbar section  -->
@@ -99,6 +100,9 @@
         </div>
         
      </section>
+
+
+
         <!-- feature section  -->
     <section class="relative mt-[150px] overflow-hidden">
         <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy" width="150" height="130" class="absolute -top-[5rem] left-[4rem] inline-block">
@@ -111,35 +115,41 @@
             <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
 
                 <!-- content box  -->
-            <div>
+            <div class="w-full min-h-[520px] bg-white flex rounded-md relative p-10 py-12">
                     <!-- left section  -->
-                <div>
-                    <h3>Supercharge your business with all-powerful <span class="text-lightBlue">Payment Gateway</span>
+                <div class="flex flex-col justify-between items-center w-full">
+                    <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px] ">Supercharge your business with all-powerful <span class="text-lightBlue">Payment Gateway</span>
                     </h3> 
-                    <ul>
-                        <li>
+                    <ul class="space-y-2 ">
+                        <li class="font-mullish flex items-center space-x-2">
+                            <img src="./images/check.svg" class="h-4">
                             <span>100+ Payment Methods</span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2">
+                            <img src="./images/check.svg" class="h-4">
                             <span>Industry leading Success Rate</span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2">
+                            <img src="./images/check.svg" class="h-4">
                             <span>Superior Checkout Experience</span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2">
+                            <img src="./images/check.svg" class="h-4">
                             <span>Easy to Integrate</span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2">
+                            <img src="./images/check.svg" class="h-4">
                             <span>Instant Settlements from day 1</span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2">
+                            <img src="./images/check.svg" class="h-4">
                             <span>In-depth Reporting and Insights</span>
                         </li>
                     </ul>
 
                     <!-- for button and hyper link  -->
-                <div>
-                    <button>Sign Up Now</button>
+                <div class="flex flex-row items-center space-x-4">
+                    <button class="bg-lightBlue text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">Sign Up Now</button>
                     <div>
                         <a href="">Know More</a>
                         <i></i>
@@ -150,5 +160,10 @@
         </div>
         </div>
     </section>
+    <script>
+        feather.replace();
+        
+    </script>
+    <script src="https://unpkg.com/feather-icons"></script>
 </body>
 </html>
